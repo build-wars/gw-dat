@@ -27,8 +27,8 @@ return [
 	// Thus, both first-party and third-party code being used by
 	// your application should be included in this list.
 	'directory_list'                  => [
-		'.phan/stubs',
-		'examples',
+#		'.phan/stubs',
+#		'examples',
 		'src',
 		'tests',
 		'vendor',
@@ -53,7 +53,7 @@ return [
 	//       and `exclude_analysis_directory_list` arrays.
 	'exclude_analysis_directory_list' => [
 		'vendor/',
-		'.phan/stubs',
+#		'.phan/stubs',
 	],
 	'suppress_issue_types'            => [
 		'PhanAccessMethodInternal',

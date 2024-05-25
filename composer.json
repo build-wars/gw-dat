@@ -1,9 +1,9 @@
 {
-	"name": "chillerlan/php-library-template-nodocs",
-	"description": "A PHP Library template/boilerplate.",
+	"name": "buildwars/gw-dat",
+	"description": "A Guild Wars gw.dat reader.",
 	"license": "MIT",
 	"type": "library",
-	"keywords": ["boilerplate", "library-template"],
+	"keywords": ["guild wars"],
 	"authors": [
 		{
 			"name": "smiley",
@@ -12,7 +12,7 @@
 		},
 		{
 			"name": "Contributors",
-			"homepage":"https://github.com/chillerlan/php-library-template-nodocs/graphs/contributors"
+			"homepage":"https://github.com/build-wars/gw-dat/graphs/contributors"
 		}
 	],
 	"funding": [
@@ -21,10 +21,10 @@
 			"url": "https://ko-fi.com/codemasher"
 		}
 	],
-	"homepage": "https://github.com/chillerlan/php-library-template-nodocs",
+	"homepage": "https://github.com/build-wars/gw-dat",
 	"support": {
-		"issues": "https://github.com/chillerlan/php-library-template-nodocs/issues",
-		"source": "https://github.com/chillerlan/php-library-template-nodocs"
+		"issues": "https://github.com/build-wars/gw-dat/issues",
+		"source": "https://github.com/build-wars/gw-dat"
 	},
 	"minimum-stability": "stable",
 	"prefer-stable": true,
@@ -41,12 +41,12 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"chillerlan\\LibraryTemplate\\": "src"
+			"BuildWars\\GWDat\\": "src"
 		}
 	},
 	"autoload-dev": {
 		"psr-4": {
-			"chillerlan\\LibraryTemplateTest\\": "tests"
+			"BuildWars\\GWDatTest\\": "tests"
 		}
 	},
 	"scripts": {
