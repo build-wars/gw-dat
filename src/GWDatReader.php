@@ -90,8 +90,6 @@ final class GWDatReader{
 
 	/**
 	 * GWDatReader constructor.
-	 *
-	 * @param string $GWpath
 	 */
 	public function __construct(string $GWDat){
 		$this->gwdat = realpath($GWDat);
@@ -113,7 +111,7 @@ final class GWDatReader{
 	}
 
 	/**
-	 * @return void
+	 *
 	 */
 	public function __destruct(){
 		if(is_resource($this->fh)){
@@ -123,7 +121,6 @@ final class GWDatReader{
 
 	/**
 	 * @todo
-	 *
 	 */
 	public function read(){
 		$this->readMFT();
