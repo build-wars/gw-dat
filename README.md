@@ -12,7 +12,7 @@ A [Guild Wars](https://www.guildwars.com/) [gw.dat](https://wiki.guildwars.com/w
 [php]: https://www.php.net/supported-versions.php
 [packagist-badge]: https://img.shields.io/packagist/v/buildwars/gw-dat.svg?logo=packagist&logoColor=fff
 [packagist]: https://packagist.org/packages/buildwars/gw-dat
-[license-badge]: https://img.shields.io/github/license/build-wars/gw-dat.svg
+[license-badge]: https://img.shields.io/github/license/build-wars/gw-dat
 [license]: https://github.com/build-wars/gw-dat/blob/main/LICENSE
 [gh-action-badge]: https://img.shields.io/github/actions/workflow/status/build-wars/gw-dat/ci.yml?branch=main&logo=github&logoColor=fff
 [gh-action]: https://github.com/build-wars/gw-dat/actions/workflows/ci.yml?query=branch%3Amain
